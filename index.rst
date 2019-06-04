@@ -26,6 +26,10 @@ Sarà possibile appendere il codice lingua per le traduzioni (https://experience
 - /fr
 - /de
 
+Modalità <iFrame>
+----------
+test
+
 Modalità fancybox
 ----------
 La modalità fancybox consente di aprire un widget in overlay sul sito, che consente al visitatore di prenotare e concludere l'acquisto senza abbandonare il sito web dell'hotel:
@@ -46,36 +50,17 @@ La modalità fancybox consente di aprire un widget in overlay sul sito, che cons
             })();
         </script>        
 
-Sarà possibile utilizzare un qualsiasi elemento del sito web (menù, altri pulsanti, immagini) per aprire il box, a sostituzione del puntante predefinito. E' sufficiente rimuovere dal codice precedente il pulsante 
+Per modificare la lingua del contenuto mostrato, è necessario modificare il codice lingua nello script di caricamento
+.. parsed-literal::
+        <script src="https://experience.romagnawelcome.it/it/api/public"></script>
+sostituendo ``/it/`` con:  ``/en/``, ``/fr/`` o ``/de/``
+
+Sarà possibile utilizzare un qualsiasi altro elemento del sito web (menù, altri pulsanti, immagini) per aprire il box, a sostituzione del puntante predefinito. E' sufficiente rimuovere dal codice precedente il pulsante preformattato, cancellando la parte
 .. parsed-literal::
         <a href="#" id="trekksoft_1727"><img src="https://experience.romagnawelcome.it/cache/images/widget-buttons/eyJsYWJlbCI6Ilwvd2lkZ2V0XC9ib29rLWJ1dHRvbi5wbmciLCJjYXB0aW9uIjoiQWNxdWlzdGEgbGUgRXhwZXJpZW5jZSBkaSBSb21hZ25hV2VsY29tZSIsImZvcmVDb2xvciI6IiNmZmZmZmYiLCJiYWNrQ29sb3IiOiIjZjU3YzAwIn0=.png" alt="Acquista le Experience di RomagnaWelcome" title="Acquista le Experience di RomagnaWelcome" border="0" /></a>
 
-ed utilizzare l'ID ``id="trekksoft_1727"`` su qualunque elemento del sito web
+ed innestrare l'ID ``id="trekksoft_1727"`` su qualunque elemento del sito web
 
-Features
---------
-
-- Be awesome
-- Make things faster
-
-Installation
-------------
-
-Install $project by running:
-
-    install project
-
-Contribute
-----------
-
-- Issue Tracker: github.com/$project/$project/issues
-- Source Code: github.com/$project/$project
-
-Support
--------
-
-If you are having issues, please let us know.
-We have a mailing list located at: project@google-groups.com
 
 License
 -------
