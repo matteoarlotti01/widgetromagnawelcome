@@ -63,9 +63,3 @@ Sarà possibile utilizzare un qualsiasi altro elemento del sito web (menù, altr
         <a href="#" id="trekksoft_1727"><img src="https://experience.romagnawelcome.it/cache/images/widget-buttons/eyJsYWJlbCI6Ilwvd2lkZ2V0XC9ib29rLWJ1dHRvbi5wbmciLCJjYXB0aW9uIjoiQWNxdWlzdGEgbGUgRXhwZXJpZW5jZSBkaSBSb21hZ25hV2VsY29tZSIsImZvcmVDb2xvciI6IiNmZmZmZmYiLCJiYWNrQ29sb3IiOiIjZjU3YzAwIn0=.png" alt="Acquista le Experience di RomagnaWelcome" title="Acquista le Experience di RomagnaWelcome" border="0" /></a>
 
 ed innestrare l'ID ``id="trekksoft_1727"`` su qualunque elemento del sito web
-
-
-License
--------
-
-The project is licensed under the BSD license.
