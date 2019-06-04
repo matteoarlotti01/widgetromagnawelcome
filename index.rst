@@ -1,11 +1,24 @@
-Template
+Widget Emilia Romagna Welcome
 ========
 
-This could be a template for all the project documentation.
+Per usufruire del widget di prenotazione Experience di Romagna Welcome c'è la possibilità di usufruire di più modalità.
+- Modalità nuova pagina 
+- Modalità <iframe>
+- Modalità fancybox (richeide javascript)
 
-System Design Considerations
+Ogni widget, è disponibile in lingue tradotte:
+- Italiano
+- Inglese
+- Francese
+- Tedesco
+
+Modalità nuova pagina
 ----------
-Hold for system design docs
+Effettuare link ad una nuova pagina, al seguente URL:
+https://experience.romagnawelcome.it/it
+https://experience.romagnawelcome.it/en
+https://experience.romagnawelcome.it/fr
+https://experience.romagnawelcome.it/de
 
 
 User Auth 
