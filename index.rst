@@ -28,6 +28,10 @@ Sarà possibile appendere il codice lingua per le traduzioni (https://experience
 
 Modalità <iFrame>
 ----------
+
+.. image:: https://i.ibb.co/bF239VT/Schermata-2019-06-04-alle-16-27-41.png
+   :width: 600
+   
 E' possibile inglobare all'interno di una pagina del sito web dell'hotel, la pagina di prenotazione delle Experience, tramite inserimento <iframe>
 .. parsed-literal::
         <iframe id="romagnaWelcome" src="https://experience.romagnawelcome.it/it/" frameborder="0" height="450px" width="100%"></iframe>
