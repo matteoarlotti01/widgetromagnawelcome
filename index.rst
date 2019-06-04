@@ -26,23 +26,26 @@ Sarà possibile appendere il codice lingua per le traduzioni (https://experience
 - /fr
 - /de
 
+Modalità fancybox
+----------
+La modalità fancybox consente di aprire un widget in overlay sul sito, che consente al visitatore di prenotare e concludere l'acquisto senza abbandonare il sito web dell'hotel:
 
-User Auth 
-------
-Place holder for User Auth documentation.
-`
-code snippet
-`
+.. parsed-literal::
+        <a href="#" id="trekksoft_1946"><img src="https://experience.romagnawelcome.it/cache/images/widget-buttons/eyJsYWJlbCI6Ilwvd2lkZ2V0XC9ib29rLWJ1dHRvbi5wbmciLCJjYXB0aW9uIjoiUHJlbm90YSIsImZvcmVDb2xvciI6IiNmZmZmZmYiLCJiYWNrQ29sb3IiOiIjMDA4ZmJlIn0=.png" alt="Prenota" title="Prenota" border="0" /></a>
 
+<script src="https://experience.romagnawelcome.it/it/api/public"></script>
+<script>
+    (function() {
+        var button = new TrekkSoft.Embed.Button();
+        button
+              .setAttrib("target", "fancy")
+              .setAttrib("entryPoint", "tours")
+              .setAttrib("referral", "PROMOZIONEALBERGHIERA")
+              .setAttrib("fancywidth", "615px")
+              .registerOnClick("#trekksoft_1946");
+    })();
+</script>    
 
-$project will solve your problem of where to start with documentation,
-by providing a basic explanation of how to do it easily.
-
-Look how easy it is to use:
-
-    import project
-    # Get your stuff done
-    project.do_stuff()
 
 Features
 --------
