@@ -32,18 +32,18 @@ La modalità fancybox consente di aprire un widget in overlay sul sito, che cons
 
 .. parsed-literal::
         <a href="#" id="trekksoft_1946"><img src="https://experience.romagnawelcome.it/cache/images/widget-buttons/eyJsYWJlbCI6Ilwvd2lkZ2V0XC9ib29rLWJ1dHRvbi5wbmciLCJjYXB0aW9uIjoiUHJlbm90YSIsImZvcmVDb2xvciI6IiNmZmZmZmYiLCJiYWNrQ29sb3IiOiIjMDA4ZmJlIn0=.png" alt="Prenota" title="Prenota" border="0" /></a>
-<script src="https://experience.romagnawelcome.it/it/api/public"></script>
-<script>
-    (function() {
-        var button = new TrekkSoft.Embed.Button();
-        button
-              .setAttrib("target", "fancy")
-              .setAttrib("entryPoint", "tours")
-              .setAttrib("referral", "PROMOZIONEALBERGHIERA")
-              .setAttrib("fancywidth", "615px")
-              .registerOnClick("#trekksoft_1946");
-    })();
-</script>    
+        <script src="https://experience.romagnawelcome.it/it/api/public"></script>
+        <script>
+            (function() {
+                var button = new TrekkSoft.Embed.Button();
+                button
+                      .setAttrib("target", "fancy")
+                      .setAttrib("entryPoint", "tours")
+                      .setAttrib("referral", "PROMOZIONEALBERGHIERA")
+                      .setAttrib("fancywidth", "615px")
+                      .registerOnClick("#trekksoft_1946");
+            })();
+        </script>    
 
 
 Features
