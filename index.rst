@@ -2,11 +2,13 @@ Widget Emilia Romagna Welcome
 ========
 
 Per usufruire del widget di prenotazione Experience di Romagna Welcome c'è la possibilità di usufruire di più modalità.
+
 - Modalità nuova pagina 
 - Modalità <iframe>
-- Modalità fancybox (richeide javascript)
+- Modalità fancybox (richiede javascript)
 
 Ogni widget, è disponibile in lingue tradotte:
+
 - Italiano
 - Inglese
 - Francese
@@ -15,9 +17,11 @@ Ogni widget, è disponibile in lingue tradotte:
 Modalità nuova pagina
 ----------
 Effettuare link ad una nuova pagina, al seguente URL:
+
 - https://experience.romagnawelcome.it/
 
 Sarà possibile appendere il codice lingua per le traduzioni (https://experience.romagnawelcome.it/en): 
+
 - /en
 - /fr
 - /de
