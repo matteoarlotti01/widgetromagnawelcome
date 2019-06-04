@@ -1,4 +1,4 @@
-Widget Emilia Romagna Welcome
+Widget Romagna Welcome
 ========
 
 Per usufruire del widget di prenotazione Experience di Romagna Welcome c'è la possibilità di usufruire di più modalità.
