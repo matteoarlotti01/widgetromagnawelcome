@@ -54,11 +54,13 @@ La modalità fancybox consente di aprire un widget in overlay sul sito, che perm
         </script>        
 
 Per modificare la lingua del contenuto mostrato, è necessario modificare il codice lingua nello script di caricamento
+
 .. parsed-literal::
         <script src="https://experience.romagnawelcome.it/it/api/public"></script>
 sostituendo ``/it/`` con:  ``/en/``, ``/fr/`` o ``/de/``
 
 Sarà possibile utilizzare un qualsiasi altro elemento del sito web (menù, altri pulsanti, immagini) per aprire il box, a sostituzione del puntante predefinito. E' sufficiente rimuovere dal codice precedente il pulsante preformattato, cancellando la parte
+
 .. parsed-literal::
         <a href="#" id="trekksoft_1727"><img src="https://experience.romagnawelcome.it/cache/images/widget-buttons/eyJsYWJlbCI6Ilwvd2lkZ2V0XC9ib29rLWJ1dHRvbi5wbmciLCJjYXB0aW9uIjoiQWNxdWlzdGEgbGUgRXhwZXJpZW5jZSBkaSBSb21hZ25hV2VsY29tZSIsImZvcmVDb2xvciI6IiNmZmZmZmYiLCJiYWNrQ29sb3IiOiIjZjU3YzAwIn0=.png" alt="Acquista le Experience di RomagnaWelcome" title="Acquista le Experience di RomagnaWelcome" border="0" /></a>
 
