@@ -15,10 +15,12 @@ Ogni widget, è disponibile in lingue tradotte:
 Modalità nuova pagina
 ----------
 Effettuare link ad una nuova pagina, al seguente URL:
-https://experience.romagnawelcome.it/it
-https://experience.romagnawelcome.it/en
-https://experience.romagnawelcome.it/fr
-https://experience.romagnawelcome.it/de
+- https://experience.romagnawelcome.it/
+
+Sarà possibile appendere il codice lingua per le traduzioni (https://experience.romagnawelcome.it/en): 
+- /en
+- /fr
+- /de
 
 
 User Auth 
