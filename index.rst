@@ -28,11 +28,14 @@ Sarà possibile appendere il codice lingua per le traduzioni (https://experience
 
 Modalità <iFrame>
 ----------
-test
+E' possibile inglobare all'interno di una pagina del sito web dell'hotel, la pagina di prenotazione delle Experience, tramite inserimento <iframe>
+.. parsed-literal::
+        <iframe id="romagnaWelcome" src="https://experience.romagnawelcome.it/it/" frameborder="0" width="100%"></iframe>
+Per modificare la lingua di caricamento, sostituire ``/it/`` con:  ``/en/``, ``/fr/`` o ``/de/``
 
 Modalità fancybox
 ----------
-La modalità fancybox consente di aprire un widget in overlay sul sito, che consente al visitatore di prenotare e concludere l'acquisto senza abbandonare il sito web dell'hotel:
+La modalità fancybox consente di aprire un widget in overlay sul sito, che permette al visitatore di prenotare e concludere l'acquisto senza abbandonare il sito web dell'hotel:
 
 .. parsed-literal::
         <a href="#" id="trekksoft_1727"><img src="https://experience.romagnawelcome.it/cache/images/widget-buttons/eyJsYWJlbCI6Ilwvd2lkZ2V0XC9ib29rLWJ1dHRvbi5wbmciLCJjYXB0aW9uIjoiQWNxdWlzdGEgbGUgRXhwZXJpZW5jZSBkaSBSb21hZ25hV2VsY29tZSIsImZvcmVDb2xvciI6IiNmZmZmZmYiLCJiYWNrQ29sb3IiOiIjZjU3YzAwIn0=.png" alt="Acquista le Experience di RomagnaWelcome" title="Acquista le Experience di RomagnaWelcome" border="0" /></a>
