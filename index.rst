@@ -31,7 +31,8 @@ Modalità fancybox
 La modalità fancybox consente di aprire un widget in overlay sul sito, che consente al visitatore di prenotare e concludere l'acquisto senza abbandonare il sito web dell'hotel:
 
 .. parsed-literal::
-        <a href="#" id="trekksoft_1946"><img src="https://experience.romagnawelcome.it/cache/images/widget-buttons/eyJsYWJlbCI6Ilwvd2lkZ2V0XC9ib29rLWJ1dHRvbi5wbmciLCJjYXB0aW9uIjoiUHJlbm90YSIsImZvcmVDb2xvciI6IiNmZmZmZmYiLCJiYWNrQ29sb3IiOiIjMDA4ZmJlIn0=.png" alt="Prenota" title="Prenota" border="0" /></a>
+        <a href="#" id="trekksoft_1727"><img src="https://experience.romagnawelcome.it/cache/images/widget-buttons/eyJsYWJlbCI6Ilwvd2lkZ2V0XC9ib29rLWJ1dHRvbi5wbmciLCJjYXB0aW9uIjoiQWNxdWlzdGEgbGUgRXhwZXJpZW5jZSBkaSBSb21hZ25hV2VsY29tZSIsImZvcmVDb2xvciI6IiNmZmZmZmYiLCJiYWNrQ29sb3IiOiIjZjU3YzAwIn0=.png" alt="Acquista le Experience di RomagnaWelcome" title="Acquista le Experience di RomagnaWelcome" border="0" /></a>
+
         <script src="https://experience.romagnawelcome.it/it/api/public"></script>
         <script>
             (function() {
@@ -41,10 +42,15 @@ La modalità fancybox consente di aprire un widget in overlay sul sito, che cons
                       .setAttrib("entryPoint", "tours")
                       .setAttrib("referral", "PROMOZIONEALBERGHIERA")
                       .setAttrib("fancywidth", "615px")
-                      .registerOnClick("#trekksoft_1946");
+                      .registerOnClick("#trekksoft_1727");
             })();
-        </script>    
+        </script>        
 
+Sarà possibile utilizzare un qualsiasi elemento del sito web (menù, altri pulsanti, immagini) per aprire il box, a sostituzione del puntante predefinito. E' sufficiente rimuovere dal codice precedente il pulsante 
+.. parsed-literal::
+        <a href="#" id="trekksoft_1727"><img src="https://experience.romagnawelcome.it/cache/images/widget-buttons/eyJsYWJlbCI6Ilwvd2lkZ2V0XC9ib29rLWJ1dHRvbi5wbmciLCJjYXB0aW9uIjoiQWNxdWlzdGEgbGUgRXhwZXJpZW5jZSBkaSBSb21hZ25hV2VsY29tZSIsImZvcmVDb2xvciI6IiNmZmZmZmYiLCJiYWNrQ29sb3IiOiIjZjU3YzAwIn0=.png" alt="Acquista le Experience di RomagnaWelcome" title="Acquista le Experience di RomagnaWelcome" border="0" /></a>
+
+ed utilizzare l'ID ``id="trekksoft_1727"`` su qualunque elemento del sito web
 
 Features
 --------
