@@ -35,6 +35,10 @@ Per modificare la lingua di caricamento, sostituire ``/it/`` con:  ``/en/``, ``/
 
 Modalità fancybox
 ----------
+
+.. image:: https://i.ibb.co/8Pmpn8x/Schermata-2019-06-04-alle-16-25-16.png
+   :width: 600
+   
 La modalità fancybox consente di aprire un widget in overlay sul sito, che permette al visitatore di prenotare e concludere l'acquisto senza abbandonare il sito web dell'hotel:
 
 .. parsed-literal::
@@ -65,3 +69,7 @@ Sarà possibile utilizzare un qualsiasi altro elemento del sito web (menù, altr
         <a href="#" id="trekksoft_1727"><img src="https://experience.romagnawelcome.it/cache/images/widget-buttons/eyJsYWJlbCI6Ilwvd2lkZ2V0XC9ib29rLWJ1dHRvbi5wbmciLCJjYXB0aW9uIjoiQWNxdWlzdGEgbGUgRXhwZXJpZW5jZSBkaSBSb21hZ25hV2VsY29tZSIsImZvcmVDb2xvciI6IiNmZmZmZmYiLCJiYWNrQ29sb3IiOiIjZjU3YzAwIn0=.png" alt="Acquista le Experience di RomagnaWelcome" title="Acquista le Experience di RomagnaWelcome" border="0" /></a>
 
 ed innestrare l'ID ``id="trekksoft_1727"`` su qualunque elemento del sito web
+
+Maggiori informazioni
+----------
+Per maggiori dettagli tecnici, inviare una mail a matteo@promozionealberghiera.it 
