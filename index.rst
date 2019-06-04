@@ -30,7 +30,7 @@ Modalità <iFrame>
 ----------
 E' possibile inglobare all'interno di una pagina del sito web dell'hotel, la pagina di prenotazione delle Experience, tramite inserimento <iframe>
 .. parsed-literal::
-        <iframe id="romagnaWelcome" src="https://experience.romagnawelcome.it/it/" frameborder="0" width="100%"></iframe>
+        <iframe id="romagnaWelcome" src="https://experience.romagnawelcome.it/it/" frameborder="0" height="450px" width="100%"></iframe>
 Per modificare la lingua di caricamento, sostituire ``/it/`` con:  ``/en/``, ``/fr/`` o ``/de/``
 
 Modalità fancybox
